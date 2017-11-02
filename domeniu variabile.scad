@@ -7,4 +7,4 @@ if (y==0){
 else{
     x=3;
 }
-echo(x==x);
+echo(x==x); //x=1
