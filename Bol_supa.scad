@@ -1,7 +1,7 @@
 module bol_supa(raza_baza,grosime_baza,raza_picior,raza_bol,grosime_perete_bol)
 {
     baza_bol(raza_baza,grosime_baza);
-        translate([0,0,grosime_baza])
+        //translate([0,0,grosime_baza])
     picior_bol(raza_picior,inaltime_picior);
         translate([0,0,grosime_baza+inaltime_picior+raza_bol])
     bol(raza_bol,grosime_perete_bol);
